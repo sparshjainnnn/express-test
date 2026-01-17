@@ -1,7 +1,7 @@
 {
-  "name": "express-hello",
+  "name": "hello-service",
   "version": "1.0.0",
-  "description": "Simple Bye World Express app",
+  "description": "Simple Hello World Express app",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {

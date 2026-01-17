@@ -1,0 +1,14 @@
+{
+  "name": "bye-service",
+  "version": "1.0.0",
+  "description": "Simple Bye World Express service",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
