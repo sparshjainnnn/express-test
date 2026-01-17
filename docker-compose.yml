@@ -14,3 +14,11 @@ services:
       - "3001:3001"
     environment:
       - PORT=3001
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - hello-service
+      - bye-service
